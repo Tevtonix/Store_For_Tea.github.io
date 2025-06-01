@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TeaShop - Интернет магазин чая и чайного сервиза</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo"><a href="index.html">TeaShop</a></h1>
+      <nav>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Главная</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a href="products.html">Товары</a></li>
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2>Добро пожаловать в мир <span class="highlight">настоящего чая</span></h2>
+          <h3>Премиальные сорта чая и изысканные чайные сервизы</h3>
+          <p>Откройте для себя богатство вкусов и ароматов лучших чайных традиций мира. У нас вы найдете элитные сорта чая и эксклюзивную посуду для чайных церемоний.</p>
+          <div class="cta-buttons">
+            <a href="products.html" class="btn primary-btn">Посмотреть товары</a>
+            <a href="contact.html" class="btn secondary-btn">Связаться с нами</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://placeholder.svg?height=400&width=400" alt="Чайная церемония с красивым сервизом">
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h2 class="section-title">Почему выбирают нас</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🌿</div>
+            <h3>Натуральные продукты</h3>
+            <p>Только натуральные чаи без искусственных добавок и красителей</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🚚</div>
+            <h3>Быстрая доставка</h3>
+            <p>Доставляем по всей России в течение 1-3 дней</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">💎</div>
+            <h3>Премиум качество</h3>
+            <p>Работаем только с проверенными поставщиками</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🎓</div>
+            <h3>Экспертные знания</h3>
+            <p>Наши консультанты помогут выбрать идеальный чай</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="popular-products">
+      <div class="container">
+        <h2 class="section-title">Популярные товары</h2>
+        <div class="products-preview">
+          <article class="product-card">
+            <div class="product-image">
+              <img src="https://placeholder.svg?height=200&width=250" alt="Зеленый чай Лунцзин">
+              <div class="product-badge">Хит продаж</div>
+            </div>
+            <div class="product-info">
+              <h4>Лунцзин (Колодец Дракона)</h4>
+              <p class="product-description">Премиальный зеленый чай из провинции Чжэцзян.</p>
+              <div class="product-price">
+                <span class="price">1 200 ₽</span>
+                <span class="weight">за 100г</span>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-image">
+              <img src="https://placeholder.svg?height=200&width=250" alt="Черный чай Эрл Грей">
+              <div class="product-badge new">Новинка</div>
+            </div>
+            <div class="product-info">
+              <h4>Эрл Грей Премиум</h4>
+              <p class="product-description">Классический английский чай с бергамотом.</p>
+              <div class="product-price">
+                <span class="price">950 ₽</span>
+                <span class="weight">за 100г</span>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-image">
+              <img src="https://placeholder.svg?height=200&width=250" alt="Чайный сервиз">
+            </div>
+            <div class="product-info">
+              <h4>Фарфоровый сервиз "Сакура"</h4>
+              <p class="product-description">Изысканный японский сервиз из тонкого фарфора.</p>
+              <div class="product-price">
+                <span class="price">8 500 ₽</span>
+                <span class="weight">комплект</span>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="text-center">
+          <a href="products.html" class="btn primary-btn">Смотреть все товары</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2>Подпишитесь на новости</h2>
+          <p>Получайте информацию о новых поступлениях и специальных предложениях</p>
+          <form class="newsletter-form" action="#" method="post">
+            <div class="form-group-inline">
+              <input type="email" placeholder="Ваш email" required>
+              <button type="submit" class="btn primary-btn">Подписаться</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>TeaShop</h4>
+          <p>Ваш надежный партнер в мире качественного чая и чайных аксессуаров.</p>
+          <div class="social-links">
+            <a href="#" aria-label="ВКонтакте">ВК</a>
+            <a href="#" aria-label="Telegram">TG</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="WhatsApp">WA</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Каталог</h4>
+          <ul>
+            <li><a href="products.html">Зеленый чай</a></li>
+            <li><a href="products.html">Черный чай</a></li>
+            <li><a href="products.html">Улун</a></li>
+            <li><a href="products.html">Пуэр</a></li>
+            <li><a href="products.html">Чайная посуда</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Информация</h4>
+          <ul>
+            <li><a href="about.html">О компании</a></li>
+            <li><a href="services.html">Доставка и оплата</a></li>
+            <li><a href="services.html">Мастер-классы</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+            <li><a href="#">Отзывы</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Контакты</h4>
+          <p>📞 +7 (495) 123-45-67</p>
+          <p>📧 info@teashop.ru</p>
+          <p>📍 г. Москва, ул. Чайная, д. 15</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 TeaShop. Все права защищены.</p>
+        <div class="footer-links">
+          <a href="#">Политика конфиденциальности</a>
+          <a href="#">Пользовательское соглашение</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
