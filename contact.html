@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты - TeaShop</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo"><a href="index.html">TeaShop</a></h1>
+      <nav>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="nav-links">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a href="products.html">Товары</a></li>
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="contact.html" class="active">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Свяжитесь с нами</h1>
+        <nav class="breadcrumb">
+          <a href="index.html">Главная</a> / <span>Контакт��</span>
+        </nav>
+      </div>
+    </section>
+
+    <section class="contact-main">
+      <div class="container">
+        <div class="contact-content">
+          <div class="contact-info">
+            <h2>Контактная информация</h2>
+            <p>Мы всегда готовы помочь вам выбрать идеальный чай или ответить на любые вопросы о наших товарах.</p>
+            
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-text">
+                  <h3>Адрес магазина</h3>
+                  <p><strong>г. Москва, ул. Чайная, д. 15</strong><br>
+                  ТЦ "Чайный дом", 2 этаж<br>
+                  м. Кропоткинская (5 мин пешком)</p>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div class="contact-text">
+                  <h3>Email</h3>
+                  <p><strong>info@teashop.ru</strong> — общие вопросы<br>
+                  <strong>orders@teashop.ru</strong> — заказы<br>
+                  <strong>support@teashop.ru</strong> — техподдержка</p>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div class="contact-text">
+                  <h3>Телефоны</h3>
+                  <p><strong>+7 (495) 123-45-67</strong> — основной<br>
+                  <strong>+7 (800) 555-33-22</strong> — бесплатный<br>
+                  <strong>+7 (926) 123-45-67</strong> — WhatsApp</p>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <div class="contact-icon">🕒</div>
+                <div class="contact-text">
+                  <h3>Режим работы</h3>
+                  <p><strong>Понедельник - Пятница:</strong> 10:00 - 20:00<br>
+                  <strong>Суббота - Воскресенье:</strong> 11:00 - 19:00<br>
+                  <em>Без перерывов и выходных</em></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-section">
+              <h3>Мы в социальных сетях</h3>
+              <div class="social-links-extended">
+                <a href="#" class="social-link">
+                  <div class="social-icon">ВК</div>
+                  <div class="social-info">
+                    <strong>ВКонтакте</strong><br>
+                    Новости и акции
+                  </div>
+                </a>
+                <a href="#" class="social-link">
+                  <div class="social-icon">TG</div>
+                  <div class="social-info">
+                    <strong>Telegram</strong><br>
+                    Быстрые консультации
+                  </div>
+                </a>
+                <a href="#" class="social-link">
+                  <div class="social-icon">IG</div>
+                  <div class="social-info">
+                    <strong>Instagram</strong><br>
+                    Фото товаров
+                  </div>
+                </a>
+                <a href="#" class="social-link">
+                  <div class="social-icon">WA</div>
+                  <div class="social-info">
+                    <strong>WhatsApp</strong><br>
+                    Заказы и вопросы
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <form class="order-form" action="#" method="post">
+            <h2>Форма обратной связи</h2>
+            <p>Заполните форму, и мы свяжемся с вами в ближайшее время</p>
+            
+            <div class="form-group">
+              <label for="name">Имя *</label>
+              <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">Телефон *</label>
+              <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com">
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Тема обращения</label>
+              <select id="subject" name="subject">
+                <option value="">Выберите тему</option>
+                <option value="order">Вопрос по заказу</option>
+                <option value="product">Консультация по товару</option>
+                <option value="delivery">Доставка</option>
+                <option value="masterclass">Мастер-класс</option>
+                <option value="partnership">Сотрудничество</option>
+                <option value="other">Другое</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Сообщение *</label>
+              <textarea id="message" name="message" placeholder="Опишите ваш вопрос или пожелание" required></textarea>
+            </div>
+            
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="agreement" name="agreement" required>
+              <label for="agreement">Я согласен с <a href="#" target="_blank">политикой конфиденциальности</a> *</label>
+            </div>
+            
+            <button type="submit" class="btn primary-btn">Отправить сообщение</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="map-section">
+      <div class="container">
+        <h2 class="section-title">Как нас найти</h2>
+        <div class="map-content">
+          <div class="map-placeholder">
+            <div class="map-info">
+              <h3>📍 Наш адрес</h3>
+              <p>г. Москва, ул. Чайная, д. 15<br>
+              ТЦ "Чайный дом", 2 этаж</p>
+              <p><strong>Ближайшее метро:</strong> Кропоткинская (5 мин пешком)</p>
+              <p><strong>Парковка:</strong> Подземная парковка ТЦ</p>
+            </div>
+          </div>
+          <div class="directions">
+            <h3>Как добраться</h3>
+            <div class="direction-item">
+              <strong>🚇 На метро:</strong>
+              <p>Станция "Кропоткинская", выход №2. Идти по ул. Пречистенка до ул. Чайная, повернуть направо.</p>
+            </div>
+            <div class="direction-item">
+              <strong>🚗 На автомобиле:</strong>
+              <p>Въезд в подземную парковку с ул. Чайная. Первые 2 часа бесплатно при покупке в нашем магазине.</p>
+            </div>
+            <div class="direction-item">
+              <strong>🚌 На общественном транспорте:</strong>
+              <p>Автобусы №15, 33, троллейбус №1 до остановки "Чайная улица".</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="container">
+        <h2 class="section-title">Часто задаваемые вопросы</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>Как оформить заказ?</h3>
+            <p>Вы можете оформить заказ через наш сайт, по телефону или посетив магазин лично. Мы принимаем заказы круглосуточно.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Какие способы оплаты доступны?</h3>
+            <p>Мы принимаем банковские карты, электронные кошельки, банковские переводы и наличные при получении.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Сколько стоит доставка?</h3>
+            <p>Стоимость доставки зависит от региона и способа доставки. Бесплатная доставка при заказе от 3000 рублей.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Можно ли вернуть товар?</h3>
+            <p>Да, вы можете вернуть товар в течение 14 дней при сохранении товарного вида и упаковки.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Проводите ли вы дегустации?</h3>
+            <p>Да, мы регулярно проводим дегустации и мастер-классы. Расписание можно узнать на нашем сайте или в социальных сетях.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Есть ли программа лояльности?</h3>
+            <p>Да, у нас есть накопительная система скидок. При покупке на сумму от 10000 рублей вы получаете скидку 5%.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>TeaShop</h4>
+          <p>Ваш надежный партнер в мире качественного чая и чайных аксессуаров.</p>
+          <div class="social-links">
+            <a href="#" aria-label="ВКонтакте">ВК</a>
+            <a href="#" aria-label="Telegram">TG</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="WhatsApp">WA</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Каталог</h4>
+          <ul>
+            <li><a href="products.html">Зеленый чай</a></li>
+            <li><a href="products.html">Черный чай</a></li>
+            <li><a href="products.html">Улун</a></li>
+            <li><a href="products.html">Пуэр</a></li>
+            <li><a href="products.html">Чайная посуда</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Информация</h4>
+          <ul>
+            <li><a href="about.html">О компании</a></li>
+            <li><a href="services.html">Доставка и оплата</a></li>
+            <li><a href="services.html">Мастер-классы</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+            <li><a href="#">Отзывы</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Контакты</h4>
+          <p>📞 +7 (495) 123-45-67</p>
+          <p>📧 info@teashop.ru</p>
+          <p>📍 г. Москва, ул. Чайная, д. 15</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 TeaShop. Все права защищены.</p>
+        <div class="footer-links">
+          <a href="#">Политика конфиденциальности</a>
+          <a href="#">Пользовательское соглашение</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
