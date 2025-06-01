@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Услуги - TeaShop</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo"><a href="index.html">TeaShop</a></h1>
+      <nav>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="nav-links">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a href="products.html">Товары</a></li>
+          <li><a href="services.html" class="active">Услуги</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Наши услуги</h1>
+        <nav class="breadcrumb">
+          <a href="index.html">Главная</a> / <span>Услуги</span>
+        </nav>
+      </div>
+    </section>
+
+    <section class="services-main">
+      <div class="container">
+        <div class="services-content">
+          <div class="service-item">
+            <div class="service-icon">🚚</div>
+            <h2>Доставка по России</h2>
+            <p>Быстрая и надежная доставка во все регионы России. Бесплатная доставка при заказе от 3000 рублей.</p>
+            <div class="service-details">
+              <h3>Способы доставки:</h3>
+              <ul>
+                <li><strong>Курьерская доставка по Москве</strong> — 1-2 дня, 300 ₽</li>
+                <li><strong>Почта России</strong> — 5-14 дней, от 200 ₽</li>
+                <li><strong>СДЭК</strong> — 2-5 дней, от 250 ₽</li>
+                <li><strong>Boxberry</strong> — 2-7 дней, от 200 ₽</li>
+              </ul>
+              <div class="delivery-zones">
+                <h4>Зоны доставки:</h4>
+                <div class="zones-grid">
+                  <div class="zone">
+                    <strong>Москва и МО</strong><br>
+                    1-2 дня
+                  </div>
+                  <div class="zone">
+                    <strong>Центральный ФО</strong><br>
+                    2-3 дня
+                  </div>
+                  <div class="zone">
+                    <strong>Другие регионы</strong><br>
+                    3-7 дней
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="service-icon">💳</div>
+            <h2>Способы оплаты</h2>
+            <p>Мы принимаем различные способы оплаты для вашего удобства.</p>
+            <div class="service-details">
+              <h3>Доступные способы:</h3>
+              <ul>
+                <li><strong>Банковские карты</strong> — Visa, MasterCard, МИР</li>
+                <li><strong>Электронные кошельки</strong> — ЮMoney, QIWI, WebMoney</li>
+                <li><strong>Банковский перевод</strong> — для юридических лиц</li>
+                <li><strong>Наличными курьеру</strong> — только в Москве</li>
+                <li><strong>При получении</strong> — наложенный платеж</li>
+              </ul>
+              <div class="payment-security">
+                <h4>Безопасность платежей:</h4>
+                <p>Все платежи защищены SSL-сертификатом. Данные карт не сохраняются на наших серверах.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="service-icon">🎓</div>
+            <h2>Чайные мастер-классы</h2>
+            <p>Обучаем искусству заваривания чая и проводим дегустации для истинных ценителей.</p>
+            <div class="service-details">
+              <h3>Виды мастер-классов:</h3>
+              <ul>
+                <li><strong>Групповые мастер-классы</strong> — по выходным, 1500 ₽/чел</li>
+                <li><strong>Индивидуальные консультации</strong> — по записи, 3000 ₽/час</li>
+                <li><strong>Корпоративные мероприятия</strong> — от 15000 ₽ за группу</li>
+                <li><strong>Онлайн-курсы</strong> — базовый курс 2500 ₽</li>
+              </ul>
+              <div class="masterclass-topics">
+                <h4>Темы мастер-классов:</h4>
+                <div class="topics-grid">
+                  <div class="topic">
+                    <strong>Основы чайной церемонии</strong><br>
+                    История и традиции
+                  </div>
+                  <div class="topic">
+                    <strong>Искусство заваривания</strong><br>
+                    Температура и время
+                  </div>
+                  <div class="topic">
+                    <strong>Дегустация чаев</strong><br>
+                    Различия сортов
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="service-icon">💝</div>
+            <h2>Подарочные наборы</h2>
+            <p>Создаем уникальные подарочные композиции из чая и аксессуаров для особых случаев.</p>
+            <div class="service-details">
+              <h3>Виды подарочных наборов:</h3>
+              <ul>
+                <li><strong>Готовые подарочные наборы</strong> — от 1500 ₽</li>
+                <li><strong>Индивидуальная упаковка</strong> — +200 ₽ к заказу</li>
+                <li><strong>Корпоративные подарки</strong> — скидки от 10%</li>
+                <li><strong>Подарочные сертификаты</strong> — любой номинал</li>
+              </ul>
+              <div class="gift-options">
+                <h4>Варианты оформления:</h4>
+                <div class="options-grid">
+                  <div class="option">
+                    <strong>Деревянная шкатулка</strong><br>
+                    Эко-упаковка
+                  </div>
+                  <div class="option">
+                    <strong>Подарочная коробка</strong><br>
+                    Фирменный дизайн
+                  </div>
+                  <div class="option">
+                    <strong>Текстильный мешочек</strong><br>
+                    Многоразовая упаковка
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="service-icon">🔄</div>
+            <h2>Обмен и возврат</h2>
+            <p>Мы гарантируем качество наших товаров и предоставляем возможность обмена и возврата.</p>
+            <div class="service-details">
+              <h3>Условия возврата:</h3>
+              <ul>
+                <li><strong>Срок возврата</strong> — 14 дней с момента получения</li>
+                <li><strong>Состояние товара</strong> — оригинальная упаковка, товарный вид</li>
+                <li><strong>Документы</strong> — чек или накладная</li>
+                <li><strong>Возврат средств</strong> — в течение 10 рабочих дней</li>
+              </ul>
+              <div class="return-exceptions">
+                <h4>Исключения:</h4>
+                <p>Не подлежат возврату: вскрытые упаковки чая, индивидуальные заказы, подарочные сертификаты.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="service-icon">📞</div>
+            <h2>Консультации экспертов</h2>
+            <p>Наши чайные эксперты помогут выбрать идеальный чай и расскажут о правилах заваривания.</p>
+            <div class="service-details">
+              <h3>Виды консультаций:</h3>
+              <ul>
+                <li><strong>Телефонные консультации</strong> — бесплатно</li>
+                <li><strong>Онлайн-чат</strong> — в рабочее время</li>
+                <li><strong>Email-поддержка</strong> — ответ в течение 24 часов</li>
+                <li><strong>Персональный подбор</strong> — индивидуальные рекомендации</li>
+              </ul>
+              <div class="consultation-hours">
+                <h4>Время работы консультантов:</h4>
+                <p><strong>Пн-Пт:</strong> 10:00 - 20:00<br>
+                <strong>Сб-Вс:</strong> 11:00 - 19:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-guarantee">
+      <div class="container">
+        <h2 class="section-title">Наши гарантии</h2>
+        <div class="guarantee-grid">
+          <div class="guarantee-item">
+            <div class="guarantee-icon">✅</div>
+            <h3>Качество товаров</h3>
+            <p>Все товары сертифицированы и проходят контроль качества</p>
+          </div>
+          <div class="guarantee-item">
+            <div class="guarantee-icon">🛡️</div>
+            <h3>Безопасность покупок</h3>
+            <p>Защищенные платежи и конфиденциальность данных</p>
+          </div>
+          <div class="guarantee-item">
+            <div class="guarantee-icon">⚡</div>
+            <h3>Быстрая обработка</h3>
+            <p>Заказы обрабатываются в течение 24 часов</p>
+          </div>
+          <div class="guarantee-item">
+            <div class="guarantee-icon">💬</div>
+            <h3>Поддержка клиентов</h3>
+            <p>Квалифицированная помощь на всех этапах покупки</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>TeaShop</h4>
+          <p>Ваш надежный партнер в мире качественного чая и чайных аксессуаров.</p>
+          <div class="social-links">
+            <a href="#" aria-label="ВКонтакте">ВК</a>
+            <a href="#" aria-label="Telegram">TG</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="WhatsApp">WA</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Каталог</h4>
+          <ul>
+            <li><a href="products.html">Зеленый чай</a></li>
+            <li><a href="products.html">Черный чай</a></li>
+            <li><a href="products.html">Улун</a></li>
+            <li><a href="products.html">Пуэр</a></li>
+            <li><a href="products.html">Чайная посуда</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Информация</h4>
+          <ul>
+            <li><a href="about.html">О компании</a></li>
+            <li><a href="services.html">Доставка и оплата</a></li>
+            <li><a href="services.html">Мастер-классы</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+            <li><a href="#">Отзывы</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Контакты</h4>
+          <p>📞 +7 (495) 123-45-67</p>
+          <p>📧 info@teashop.ru</p>
+          <p>📍 г. Москва, ул. Чайная, д. 15</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 TeaShop. Все права защищены.</p>
+        <div class="footer-links">
+          <a href="#">Политика конфиденциальности</a>
+          <a href="#">Пользовательское соглашение</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
