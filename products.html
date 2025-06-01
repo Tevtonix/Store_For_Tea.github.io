@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Товары - TeaShop</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo"><a href="index.html">TeaShop</a></h1>
+      <nav>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="nav-links">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a href="products.html" class="active">Товары</a></li>
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Наши товары</h1>
+        <nav class="breadcrumb">
+          <a href="index.html">Главная</a> / <span>Товары</span>
+        </nav>
+      </div>
+    </section>
+
+    <section class="product-categories">
+      <div class="container">
+        <h2 class="section-title">Категории товаров</h2>
+        <div class="categories-grid">
+          <div class="category-card">
+            <div class="category-icon">🍃</div>
+            <h3>Зеленый чай</h3>
+            <p>Свежие и ароматные сорта зеленого чая из Китая и Японии</p>
+            <div class="category-count">25 товаров</div>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">🌹</div>
+            <h3>Черный чай</h3>
+            <p>Классические и ароматизированные сорта черного чая</p>
+            <div class="category-count">30 товаров</div>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">🌸</div>
+            <h3>Улун</h3>
+            <p>Полуферментированные чаи с уникальным вкусом</p>
+            <div class="category-count">15 товаров</div>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">🍂</div>
+            <h3>Пуэр</h3>
+            <p>Выдержанные китайские чаи с глубоким вкусом</p>
+            <div class="category-count">12 товаров</div>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">🌺</div>
+            <h3>Травяные чаи</h3>
+            <p>Натуральные травяные сборы и фиточаи</p>
+            <div class="category-count">20 товаров</div>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">☕</div>
+            <h3>Чайная посуда</h3>
+            <p>Сервизы, чайники, чашки и аксессуары для чая</p>
+            <div class="category-count">45 товаров</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-products">
+      <div class="container">
+        <h2 class="section-title">Рекомендуемые товары</h2>
+        <div class="products-grid">
+          <article class="product-card">
+            <div class="product-image">
+              <img src="https://placeholder.svg?height=200&width=250" alt="Зеленый чай Лунцзин">
+              <div class="product-badge">Хит продаж</div>
+            </div>
+            <div class="product-info">
+              <h3>Лунцзин (Колодец Дракона)</h3>
+              <p class="product-description">Премиальный зеленый чай из провинции Чжэцзян. Нежный вкус с цветочными нотами.</p>
+              <div class="product-details">
+                <span class="product-origin">Китай</span>
+                <span class="product-type">Зеленый чай</span>
+              </div>
+              <div class="product-price">
+                <span class="price">1 200 ₽</span>
+                <span class="weight">за 100г</span>
+              </div>
+              <button class="btn primary-btn product-btn">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <img src="https://placeholder.svg?height=200&width=250" alt="Черный чай Эрл Грей">
+              <div class="product-badge new">Новинка</div>
+            </div>
+            <div class="product-info">
+              <h3>Эрл Грей Премиум</h3>
+              <p class="product-description">Классический английский чай с натуральным маслом бергамота и лепестками василька.</p>
+              <div class="product-details">
+                <span class="product-origin">Цейлон</span>
+                <span class="product-type">Черный чай</span>
+              </div>
+              <div class="product-price">
+                <span class="price">950 ₽</span>
+                <span class="weight">за 100г</span>
+              </div>
+              <button class="btn primary-btn product-btn">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <img src="https://placeholder.svg?height=200&width=250" alt="Чайный сервиз">
+            </div>
+            <div class="product-info">
+              <h3>Фарфоровый сервиз "Сакура"</h3>
+              <p class="product-description">Изысканный японский сервиз из тонкого фарфора с росписью цветущей сакуры.</p>
+              <div class="product-details">
+                <span class="product-origin">Япония</span>
+                <span class="product-type">Посуда</span>
+              </div>
+              <div class="product-price">
+                <span class="price">8 500 ₽</span>
+                <span class="weight">комплект</span>
+              </div>
+              <button class="btn primary-btn product-btn">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <img src="https://placeholder.svg?height=200&width=250" alt="Улун Те Гуань Инь">
+            </div>
+            <div class="product-info">
+              <h3>Те Гуань Инь</h3>
+              <p class="product-description">Легендарный китайский улун с богатым вкусом и долгим послевкусием.</p>
+              <div class="product-details">
+                <span class="product-origin">Китай</span>
+                <span class="product-type">Улун</span>
+              </div>
+              <div class="product-price">
+                <span class="price">1 800 ₽</span>
+                <span class="weight">за 100г</span>
+              </div>
+              <button class="btn primary-btn product-btn">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <img src="https://placeholder.svg?height=200&width=250" alt="Стеклянный чайник">
+            </div>
+            <div class="product-info">
+              <h3>Стеклянный чайник с подогревом</h3>
+              <p class="product-description">Элегантный чайник из жаропрочного стекла с подставкой для свечи.</p>
+              <div class="product-details">
+                <span class="product-origin">Германия</span>
+                <span class="product-type">Посуда</span>
+              </div>
+              <div class="product-price">
+                <span class="price">3 200 ₽</span>
+                <span class="weight">600 мл</span>
+              </div>
+              <button class="btn primary-btn product-btn">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <img src="https://placeholder.svg?height=200&width=250" alt="Пуэр">
+            </div>
+            <div class="product-info">
+              <h3>Пуэр Шу 2015 года</h3>
+              <p class="product-description">Выдержанный темный пуэр с глубоким землистым вкусом и целебными свойствами.</p>
+              <div class="product-details">
+                <span class="product-origin">Китай</span>
+                <span class="product-type">Пуэр</span>
+              </div>
+              <div class="product-price">
+                <span class="price">2 500 ₽</span>
+                <span class="weight">за 357г</span>
+              </div>
+              <button class="btn primary-btn product-btn">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <img src="https://placeholder.svg?height=200&width=250" alt="Жасминовый чай">
+            </div>
+            <div class="product-info">
+              <h3>Жасминовый Феникс Жемчуг</h3>
+              <p class="product-description">Зеленый чай с натуральными цветами жасмина, скрученный в жемчужины.</p>
+              <div class="product-details">
+                <span class="product-origin">Китай</span>
+                <span class="product-type">Зеленый чай</span>
+              </div>
+              <div class="product-price">
+                <span class="price">1 650 ₽</span>
+                <span class="weight">за 100г</span>
+              </div>
+              <button class="btn primary-btn product-btn">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <img src="https://placeholder.svg?height=200&width=250" alt="Глиняный чайник">
+            </div>
+            <div class="product-info">
+              <h3>Глиняный чайник Исин</h3>
+              <p class="product-description">Аутентичный чайник из исинской глины ручной работы для заваривания улунов.</p>
+              <div class="product-details">
+                <span class="product-origin">Китай</span>
+                <span class="product-type">Посуда</span>
+              </div>
+              <div class="product-price">
+                <span class="price">4 800 ₽</span>
+                <span class="weight">200 мл</span>
+              </div>
+              <button class="btn primary-btn product-btn">В корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <img src="https://placeholder.svg?height=200&width=250" alt="Травяной чай">
+            </div>
+            <div class="product-info">
+              <h3>Травяной сбор "Альпийские травы"</h3>
+              <p class="product-description">Натуральный сбор из альпийских трав с мятой, ромашкой и мелиссой.</p>
+              <div class="product-details">
+                <span class="product-origin">Швейцария</span>
+                <span class="product-type">Травяной чай</span>
+              </div>
+              <div class="product-price">
+                <span class="price">750 ₽</span>
+                <span class="weight">за 50г</span>
+              </div>
+              <button class="btn primary-btn product-btn">В корзину</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-info-section">
+      <div class="container">
+        <h2 class="section-title">Как выбрать чай</h2>
+        <div class="info-grid">
+          <div class="info-card">
+            <h3>🍃 Зеленый чай</h3>
+            <p>Идеален для утреннего чаепития. Содержит антиоксиданты, бодрит и освежает. Заваривать при температуре 70-80°C.</p>
+          </div>
+          <div class="info-card">
+            <h3>🌹 Черный чай</h3>
+            <p>Классический выбор для любого времени дня. Хорошо сочетается с молоком и сахаром. Заваривать при температуре 95-100°C.</p>
+          </div>
+          <div class="info-card">
+            <h3>🌸 Улун</h3>
+            <p>Полуферментированный чай с уникальным вкусом между зеленым и черным. Идеален для чайной церемонии.</p>
+          </div>
+          <div class="info-card">
+            <h3>🍂 Пуэр</h3>
+            <p>Выдержанный чай с глубоким вкусом. Помогает пищеварению, можно пить после еды. Улучшается с возрастом.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>TeaShop</h4>
+          <p>Ваш надежный партнер в мире качественного чая и чайных аксессуаров.</p>
+          <div class="social-links">
+            <a href="#" aria-label="ВКонтакте">ВК</a>
+            <a href="#" aria-label="Telegram">TG</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="WhatsApp">WA</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Каталог</h4>
+          <ul>
+            <li><a href="products.html">Зеленый чай</a></li>
+            <li><a href="products.html">Черный чай</a></li>
+            <li><a href="products.html">Улун</a></li>
+            <li><a href="products.html">Пуэр</a></li>
+            <li><a href="products.html">Чайная посуда</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Информация</h4>
+          <ul>
+            <li><a href="about.html">О компании</a></li>
+            <li><a href="services.html">Доставка и оплата</a></li>
+            <li><a href="services.html">Мастер-классы</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+            <li><a href="#">Отзывы</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Контакты</h4>
+          <p>📞 +7 (495) 123-45-67</p>
+          <p>📧 info@teashop.ru</p>
+          <p>📍 г. Москва, ул. Чайная, д. 15</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 TeaShop. Все права защищены.</p>
+        <div class="footer-links">
+          <a href="#">Политика конфиденциальности</a>
+          <a href="#">Пользовательское соглашение</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
